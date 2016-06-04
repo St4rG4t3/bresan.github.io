@@ -3,9 +3,76 @@
 # Site wide configuration
 ####################################
 #
-title:       "Rodrigo Bresan"
-description: "Software e Desenvolvimento Móvel"
+title:
+  en: "Rodrigo Bresan - Mobile Development"
+  pt: "Rodrigo Bresan - Software e Desenvolvimento Móvel"
+  es: "Rodrigo Bresan - Mobile Desenvolvimento"
+description: 
+  en: "Mobile Development"
+  pt: "Software e Desenvolvimento Móvel"
+  es: "Mobile Desenvolvimento"
+
 url:         # the base hostname & protocol for your site
+
+index:
+  en:
+  pt: pt-br/
+  es: es/
+
+sidebar_owner:
+  en:
+    home:
+      name: "Home"
+      url: "/index.html"
+    about:
+      name: "About"
+      url: "/about.html"
+  pt:
+    home:
+      name: "Início"
+      url: "/pt-br"
+    about:
+      name: "Sobre"
+      url: "/pt-br/sobre.html"
+  es:
+    home:
+      name: "Inicio"
+      url: "/es"
+    about:
+      name: "Acerca"
+      url: "/es/acerca.html"
+
+sidebar_content:
+  en:
+    archive:
+      name: "Archive"
+      url: "/archive"
+    categories:
+      name: "Categories"
+      url: "/categories"
+    tags:
+      name: "Tags"
+      url: "/tags"
+  pt:
+    archive:
+      name: "Archive"
+      url: "/archive"
+    categories:
+      name: "Categorias"
+      url: "/categories"
+    tags:
+      name: "Tags"
+      url: "/tags"
+  es:
+    archive:
+      name: "Arquívo"
+      url: "/archive"
+    categories:
+      name: "Categorías"
+      url: "/categories"
+    tags:
+      name: "Marcaciones"
+      url: "/tags"
 
 #
 ###################################
@@ -31,10 +98,16 @@ kramdown:
 ####################################
 #
 owner:
-  name: Your name
-  avatar: avatar.jpg
-  job: "Software Developer"
-  bio: "Hello world :-)"
+  name: Rodrigo Bresan
+  avatar: avatar.jpeg
+  job: 
+    en: "Mobile Developer"
+    pt: "Desenvolvedor Móvel"
+    es: "Cucaracha"
+  bio: 
+    en: "Mobile Developer"
+    pt: "Desenvolvedor Movel"
+    es: "Arriba"
   email:
   disqus-shortname:
   twitter:

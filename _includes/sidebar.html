@@ -4,9 +4,19 @@
   {% if author.avatar %}
   <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
   {% endif %}
-  <a href="{{ site.url }}/" class="author_name">{{ author.name }}</a>
-  <span class="author_job">{{ author.job }}</span>
-  <span class="author_bio mbm">{{ author.bio }}</span>
+  <a href="{{ site.sidebar[page.lang].home.url }}/" class="author_name">{{ author.name }}</a>
+  <span class="author_job">{{ author.job[page.lang] }}</span>
+  <span class="author_bio mbm">{{ author.bio[page.lang] }}</span>
+  <nav class="nav">
+    <ul class="nav-list">
+      {% for menu in site.sidebar_owner[page.lang] %}
+        <li class="nav-item">
+          <a href="{{ menu[1].url }}">{{ menu[1].name }}</a>{% unless forloop.last %}<span>/</span>{% endunless %}
+        </li>
+      {% endfor %}
+    </ul>
+  </nav>
+
   <nav class="nav">
     <ul class="nav-list">
       {% for page in site.pages %} {% if page.title %}
