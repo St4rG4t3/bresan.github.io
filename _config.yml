@@ -7,7 +7,7 @@ title:
   en: "Rodrigo Bresan - Mobile Development"
   pt: "Rodrigo Bresan - Software e Desenvolvimento Móvel"
   es: "Rodrigo Bresan - Mobile Desenvolvimento"
-description: 
+description:
   en: "Mobile Development"
   pt: "Software e Desenvolvimento Móvel"
   es: "Mobile Desenvolvimento"
@@ -42,37 +42,37 @@ sidebar_owner:
       name: "Acerca"
       url: "/es/acerca.html"
 
-sidebar_content:
+sidebar_pages:
   en:
     archive:
       name: "Archive"
-      url: "/archive"
+      url: "/archive.html"
     categories:
       name: "Categories"
-      url: "/categories"
+      url: "/categories.html"
     tags:
       name: "Tags"
-      url: "/tags"
+      url: "/tags.html"
   pt:
     archive:
-      name: "Archive"
-      url: "/archive"
+      name: "Arquivo"
+      url: "/pt-br/arquivo.html"
     categories:
       name: "Categorias"
-      url: "/categories"
+      url: "/pt-br/categorias.html"
     tags:
       name: "Tags"
-      url: "/tags"
+      url: "/pt-br/tags.html"
   es:
     archive:
       name: "Arquívo"
-      url: "/archive"
+      url: "/es/arquivo.html"
     categories:
       name: "Categorías"
-      url: "/categories"
+      url: "/es/categorias.html"
     tags:
       name: "Marcaciones"
-      url: "/tags"
+      url: "/es/marcaciones.html"
 
 #
 ###################################
@@ -92,6 +92,8 @@ kramdown:
   toc_levels:     1..6
   enable_coderay: false
 
+gems: [jekyll-paginate]
+paginate:         5
 #
 ###################################
 # Site Owner configuration
@@ -100,11 +102,11 @@ kramdown:
 owner:
   name: Rodrigo Bresan
   avatar: avatar.jpeg
-  job: 
+  job:
     en: "Mobile Developer"
     pt: "Desenvolvedor Móvel"
     es: "Cucaracha"
-  bio: 
+  bio:
     en: "Mobile Developer"
     pt: "Desenvolvedor Movel"
     es: "Arriba"
