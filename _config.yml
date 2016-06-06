@@ -13,7 +13,6 @@ description:
   es: "Mobile Desenvolvimento"
 
 url:         # the base hostname & protocol for your site
-base_url: /
 
 index:
   en:
@@ -138,10 +137,10 @@ owner:
     ad-slot:
   bing-verify:
   github: rcbresan
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  stackoverflow: 6432460/rodrigo-bresan
   linkedin: bresan
-  xing: #username
-  instagram: #username
+  xing: bresan
+  instagram: bresan
   lastfm: #username
   tumblr: #username
   pinterest: #username

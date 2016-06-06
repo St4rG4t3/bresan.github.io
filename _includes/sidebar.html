@@ -1,13 +1,12 @@
-{% assign author = site.owner %}
-{{ author.avatar }}
+
 <!--
 {% if page.author %} {% assign author = site.data.authors[page.author] %}{% else %}{% assign author = site.owner %} {% endif %}
 -->
 <div class="cover-card table-cell table-middle">
-  <img src="{{ site.url }}/img/{{ author.avatar }}" alt="" class="avatar">
-  <a href="{{ site.sidebar[page.lang].home.url }}/" class="author_name">{{ author.name }}</a>
-  <span class="author_job">{{ author.job[page.lang] }}</span>
-  <span class="author_bio mbm">{{ author.bio[page.lang] }}</span>
+  <img src="{{ site.url }}/img/{{ site.owner.avatar }}" alt="" class="avatar">
+  <a href="{{ site.sidebar[page.lang].home.url }}/" class="author_name">{{ site.owner.name }}</a>
+  <span class="author_job">{{ site.owner.job[page.lang] }}</span>
+  <span class="author_bio mbm">{{ site.owner.bio[page.lang] }}</span>
 
   <nav class="nav">
     <ul class="nav-list">
@@ -29,17 +28,5 @@
     </ul>
   </nav>
 
-  <!--
-  <nav class="nav">
-    <ul class="nav-list">
-      {% for page in site.pages %} {% if page.title %}
-      <li class="nav-item">
-        <a href="{{ site.url }}{{ page.url }}">{{ page.title }}</a>{% unless forloop.last %}
-        <span>/</span>{% endunless %}
-      </li>
-      {% endif %} {% endfor %}
-    </ul>
-  </nav>
-  -->
   {% include social-links.html %}
 </div>
