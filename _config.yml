@@ -19,6 +19,21 @@ index:
   pt: pt-br/
   es: es/
 
+archive:
+  en: "archive.html"
+  pt: "/pt-br/arquivo.html"
+  es: "/es/arquivo.html"
+
+categories:
+  en: "categories.html"
+  pt: "/pt-br/categorias.html"
+  es: "/es/categorias.html"
+
+tags:
+  en: "tags.html"
+  pt: "/pt-br/tags.html"
+  es: "/es/tags.html"
+
 sidebar_owner:
   en:
     home:
@@ -72,7 +87,7 @@ sidebar_pages:
       url: "/es/categorias.html"
     tags:
       name: "Marcaciones"
-      url: "/es/marcaciones.html"
+      url: "/es/tags.html"
 
 #
 ###################################
@@ -111,7 +126,7 @@ owner:
     pt: "Desenvolvedor Movel"
     es: "Arriba"
   email:
-  disqus-shortname:
+  disqus-shortname: bresan
   twitter:
   facebook: rodrigobresan
   google:

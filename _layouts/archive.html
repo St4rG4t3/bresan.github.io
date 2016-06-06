@@ -1,34 +1,10 @@
 ---
 layout: page
 ---
-
-<div class="archive">
-  <div class="timeline" id="timeline">
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-    {% unless post.next %}
-    <div class="archive-title">
-      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
-    </div>
-
-    <ul>
-    {% else %}
-      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
-    {% if year != nyear %}
-    </ul>
-    <div class="archive-title">
-      <h4 class="archive-year">{{ post.date | date: '%Y' }}</h4>
-    </div>
-
-    <ul>
-    {% endif %}
-    {% endunless %}
-    <li>
-      <div style="width:60px;float:left;"> {{ post.date | date: "%b %-d" }}</div> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-    </ul>
-
-  </div>
-
-</div>
+<section id="archive">
+  {% assign posts = site.posts | where: "lang", page.lang %}
+  {% for post in posts %}
+    <div style="margin-left:30px;float:left;"><i>{{ post.date | date: "%Y, %b %-d"}}</i> <a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></div>
+    <br/>
+  {% endfor %}
+</section>

@@ -12,7 +12,7 @@
     <ul class="nav-list">
       {% for menu in site.sidebar_owner[page.lang] %}
         <li class="nav-item">
-          <a href="{{ menu[1].url }}">{{ menu[1].name }}</a>{% unless forloop.last %}<span>/</span>{% endunless %}
+          <a href="{{ menu[1].url }}">{{ menu[1].name }} </a>{% unless forloop.last %}<span>/</span>{% endunless %}
         </li>
       {% endfor %}
     </ul>
@@ -22,7 +22,7 @@
     <ul class="nav-list">
       {% for menu in site.sidebar_pages[page.lang] %}
         <li class="nav-item">
-          <a href="{{ menu[1].url }}">{{ menu[1].name }}</a>{% unless forloop.last %}<span>/</span>{% endunless %}
+          <a href="{{ menu[1].url }}">{{ menu[1].name }} </a>{% unless forloop.last %}<span>/</span>{% endunless %}
         </li>
       {% endfor %}
     </ul>
