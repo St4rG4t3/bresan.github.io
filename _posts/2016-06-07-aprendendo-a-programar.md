@@ -22,7 +22,7 @@ Digamos que você, leitor, queira aprender a cozinhar. Nesse post, supondo que e
 
 Você provavelmente realizaria muitas das receitas com sucesso, todos provariam e falariam bem de sua comida, sem dúvidas, visto que você seguiu a receita corretamente. Porém, caso você queira alterar algo na receita, isso seria possível, sem entender o que se passa na cabeça de quem a elaborou?
 
-É esse o conceito que viso abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita em comparação com o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar em relação ao ato de entender a teoria por trás do programa.
+É esse o conceito que iremos abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita em comparação com o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar em relação ao ato de entender a teoria por trás do programa.
 
 É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série "Aprenda *[insira_aqui_a_linguagem]* em 21 dias". Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
 
