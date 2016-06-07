@@ -12,6 +12,11 @@ description:
   pt: "Software e Desenvolvimento Móvel"
   es: "Mobile Desenvolvimento"
 
+read_also:
+  en: "Read also in "
+  pt: "Leia também em "
+  es: "Leer también en "
+
 url:         # the base hostname & protocol for your site
 
 index:
@@ -33,6 +38,17 @@ tags:
   en: "tags.html"
   pt: "/pt-br/tags.html"
   es: "/es/tags.html"
+
+sidebar_languages:
+  en:
+    name: "en"
+    url: "/index.html"
+  pt:
+    name: "pt-br"
+    url: "/pt-br/index.html"
+  es:
+    name: "es"
+    url: "/es/index.html"
 
 sidebar_owner:
   en:

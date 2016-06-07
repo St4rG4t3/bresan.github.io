@@ -28,5 +28,15 @@
     </ul>
   </nav>
 
+  <nav class="nav">
+      <ul class="nav-list">
+        {% for language in site.sidebar_languages %}
+          <li class="nav-item">
+            <a href="{{ language[1].url }}">{{ language[1].name }} </a>{% unless forloop.last %}<span>/</span>{% endunless %}
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
   {% include social-links.html %}
 </div>
