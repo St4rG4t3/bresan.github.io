@@ -16,12 +16,12 @@
         {% if page.ref != "index" %}
           <nav class="nav">
             <ul class="nav-list">
-
               {{ site.read_also[page.lang] }}
               {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
               {% for post in posts %}
+                {% assign language_available = site.languages[post.lang] %}
                 <li class="nav-item">
-                  <a href="{{ post.url }}" class="{{ post.lang }}">{{ post.lang }} </a>{% unless forloop.last %}<span>/</span>{% endunless %}
+                  <a href="{{ post.url }}" class="{{ post.lang }}">{{ language_available }} </a>{% unless forloop.last %}<span>/</span>{% endunless %}
                 </li>
               {% endfor %}
 
