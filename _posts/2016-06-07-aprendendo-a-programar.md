@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Começando a programar"
+title: "Aprendendo a programar"
 categories: [software]
 author: Rodrigo Bresan
 comments: true
 image:
-  feature: https://bresandev.files.wordpress.com/2016/06/hello-world-v023.jpg
+  feature: https://raw.githubusercontent.com/rcbresan/rcbresan.github.io/master/img/hello_world.jpg
 lang: pt
 ref: learning-to-programming
 ---
 
-Muitos amigos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” (sim, todos nós ficamos felizes quando conseguimos rodar nosso Hello World, admitamos).
+Muitos amigos e conhecidos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” *(sim, todos nós ficamos felizes quando conseguimos rodar nosso Hello World, admitamos)*.
 
 Venho então nesse post dar ênfase principalmente a conselhos e materiais que creio que possam auxiliar àqueles que estão nessa jornada de aprendizado, seja por questões profissionais ou por puro hobby.
 
@@ -24,7 +24,7 @@ Você provavelmente realizaria muitas das receitas com sucesso, todos provariam 
 
 É esse o conceito que viso abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita em comparação com o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar em relação ao ato de entender a teoria por trás do programa.
 
-É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série "Aprenda [insira_aqui_a_linguagem] em 21 dias". Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
+É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série "Aprenda *[insira_aqui_a_linguagem]* em 21 dias". Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
 
 Um programador não é meramente um indivíduo que sabe uma ou várias linguagens de programação; um programador é um indivíduo que, na **busca pela resposta de um problema**, se utiliza destas linguagens e ferramentas para sua resolução.
 
@@ -63,7 +63,7 @@ Como desfecho dessa seção, deixo novamente o adendo no foco em como realizar a
 
 ## Aprenda a Programar (finalmente!)
 
-Para dar início à programação em si, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de opções de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
+Para dar início à programação em si, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão e curva de aprendizado, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de opções de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
 
 Você pode encontrar muitos sites contendo guias de estudo de linguagens, como é o caso do Codecademy e o CodeSchool, sites que têm como foco o ensino de linguagens de programação de uma forma intuitiva e prática, principalmente através da resolução de exercícios.
 
@@ -87,7 +87,7 @@ Você pode encontrar muito material também em sites como o Udacity e o Coursera
 
 Após você ter uma base mínima de conhecimento sobre como funciona a lógica de programação, bem como também da linguagem escolhida, um passo importante, que muitas vezes não recebe atenção suficiente, é aprender sobre os conceitos de computação. Aprenda sobre os principais tipos de armazenamento de dados (lias, pilhas e filas), algoritmos de ordenação (quick sort, merge sort, heapsort), estruturas de dados (árvores binárias, árvores vermelhas e pretas, hash tables)  e também Big O.
 
-Esses tópicos são muitíssimos solicitados durante entrevistas e compõem o cerne da computação.
+Estes tópicos compõem o cerne da computação e também são muitíssimos solicitados durante entrevistas (!).
 
 [Curso de Algoritmos da Universidade de Princeton no Coursera](https://www.coursera.org/course/algs4partI)
 
@@ -99,7 +99,7 @@ Ler código é o que um programador mais faz em sua profissão, como diria Uncle
 
 Uncle Bob quis dizer na sentença acima que a proporção de leitura de código para escrita é da ordem de **10 para 1**, isto é, **você lê código 10 vezes mais do que escreve.**
 
-Portanto, podemos concluir que o melhor meio de se aprender a programar mais e melhor é certamente lendo código. Existem diversas comunidades de código aberto para você poder ler e aprender como outros desenvolvedores chegaram as suas soluções. Uma das comunidades mais conhecidas é o GitHub, uma plataforma social voltada para desenvolvedores que utiliza o sistema de controle de versão chamado Git (irei falar mais futuramente sobre esse controle de versão).
+Portanto, podemos concluir que o melhor meio de se aprender a programar mais e melhor é certamente lendo código. Existem diversas comunidades de código aberto para você poder ler e aprender como outros desenvolvedores chegaram as suas soluções. Uma das comunidades mais conhecidas é o [GitHub](http://github.com), uma plataforma social voltada para desenvolvedores que utiliza o sistema de controle de versão chamado Git (irei falar mais futuramente sobre esse controle de versão).
 
 O bom de procurar projetos abertos e contribuir com eles é que eles em sua maioria já contém um grande volume de material, compostos por diversas classes e métodos, o que ajuda quando você for pegar um cenário real de desenvolvimento.
 
@@ -107,13 +107,19 @@ O bom de procurar projetos abertos e contribuir com eles é que eles em sua maio
 
 O principal ponto de aprender como programar é, certamente, o ato de programar.
 
-Escolha alguma ideia (desde a calcular a média de uma sequência de números até a encontrar banheiros públicos na região, por exemplo), seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não se esqueça de contribuir com a comunidade, podendo deixar sua ideia em alguma plataforma de código aberto, como o GitHub.
+Escolha alguma ideia *(desde a calcular a média de uma sequência de números até a encontrar banheiros públicos na região, por exemplo)*, seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não se esqueça de contribuir com a comunidade, podendo deixar sua ideia em alguma plataforma de código aberto, como o GitHub.
 
 ## Participe de alguma comunidade
 
-O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o [StackOverflow](http://stackoverflow.com), comunidade baseada no esquema de perguntas e respostas, bem como também no [Quora](http://quora.com), similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o Facebook e seus grupos, além também do Slack, que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
+O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o [StackOverflow](http://stackoverflow.com), comunidade baseada no esquema de perguntas e respostas, bem como também no [Quora](http://quora.com), similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o [Facebook](http://facebook.com) e seus grupos, além também do [Slack](http://slack.com), que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
 
-Um dos principais pontos de ser membro de uma comunidade é poder encontrar mentores. Um mentor é aquele que vai te auxiliar no caminho das pedras, é aquele que já passou por tudo que você vai passar, tanto como desenvolvedor como quanto ser humano, servindo como um guia, tanto no que diz respeito à decisões quanto também à materiais de estudo.
+## Encontre um mentor
+
+Um ótimo conselho que eu dou a todos é encontrar um mentor. *Não pensem mentor como sendo um cara com um crachá escrito "Mentor"*. Um mentor é um indivíduo comum, que nem eu e você, mas que já passou pelas dificuldades que você irá passar durante o aprendizado. Esse é o cara que vai te guiar minimamente durante esse processo, te falando quais caminhos você pode tomar, e as consequências de cada um deles.
+
+**Regra 1: Para encontrar um mentor, não procure por um.**
+
+Parece contraditório, não? Mas é assim que funciona. Dificilmente você irá encontrar um mentor apenas procurando por um. O melhor jeito de encontrar um, é tentando tornar-se um melhor desenvolvedor. Escreva código, participe de projetos de código aberto, vá a meetups e eventos, assim você estará no meio de pessoas que compartilham dos mesmos interesses que você, e então será fácil achar não um, mas várias pessoas para te auxiliarem nessa jornada.
 
 ## Eventos
 
