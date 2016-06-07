@@ -29,6 +29,11 @@ archive:
   pt: "/pt-br/arquivo.html"
   es: "/es/arquivo.html"
 
+languages:
+  en: "english"
+  pt: "português"
+  es: "español"
+
 categories:
   en: "categories.html"
   pt: "/pt-br/categorias.html"
