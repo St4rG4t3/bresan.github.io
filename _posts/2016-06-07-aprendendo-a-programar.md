@@ -7,46 +7,38 @@ comments: true
 image:
   feature: https://bresandev.files.wordpress.com/2016/06/hello-world-v023.jpg
 lang: pt
-ref: learning-to-program
+ref: learning-to-programming
 ---
 
-Muitos amigos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” (sim, você ficou feliz a primeira vez que conseguiu rodar um Hello World, admita).
+Muitos amigos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” (sim, todos nós ficamos felizes quando conseguimos rodar nosso Hello World, admitamos).
 
-Bom, venho então nesse post dar ênfase principalmente à materiais que creio que possam auxiliar àqueles que estão nessa jornada de aprendizado, seja por questões profissionais ou por puro hobby.
+Venho então nesse post dar ênfase principalmente a conselhos e materiais que creio que possam auxiliar àqueles que estão nessa jornada de aprendizado, seja por questões profissionais ou por puro hobby.
 
 <!--more-->
 
 ## Uma simples analogia
 
-Analogicamente, digamos que você, leitor, queira aprender a cozinhar. Nesse post, supondo que seja relacionado à culinária, eu lhe recomendaria diversos livros sobre receitas que você provavelmente iria gostar de fazer.
+Digamos que você, leitor, queira aprender a cozinhar. Nesse post, supondo que esse blog fosse relacionado à culinária, eu lhe recomendaria diversos livros sobre receitas que você provavelmente iria gostar de fazer.
 
-Você provavelmente realizaria muitas das receitas com sucesso, todos gostariam e falariam bem de sua comida, sem dúvidas. Porém, caso você queira fazer algo novo, do zero, isso seria possível, sem entender o que se passa na cabeça de quem elaborou a receita?
+Você provavelmente realizaria muitas das receitas com sucesso, todos provariam e falariam bem de sua comida, sem dúvidas, visto que você seguiu a receita corretamente. Porém, caso você queira alterar algo na receita, isso seria possível, sem entender o que se passa na cabeça de quem a elaborou?
 
-É esse o conceito que viso abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita vs o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar versus o ato de entender a teoria por trás do programa.
+É esse o conceito que viso abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita em comparação com o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar em relação ao ato de entender a teoria por trás do programa.
 
-É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série Aprenda [insira_aqui_a_linguagem] em 21 dias.
-
-Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
+É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série "Aprenda [insira_aqui_a_linguagem] em 21 dias". Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
 
 Um programador não é meramente um indivíduo que sabe uma ou várias linguagens de programação; um programador é um indivíduo que, na **busca pela resposta de um problema**, se utiliza destas linguagens e ferramentas para sua resolução.
 
 **E é isso que fazemos todos os dias: resolvemos problemas.**
 
-Portanto, deixo aqui o adendo àqueles que visam iniciar nesse mundo, para que não deixem de praticar o ato da resolução de problemas, ao invés de aprender x linguagens e y frameworks.
+Portanto, deixo aqui esta mensagem para aqueles que visam iniciar nesse mundo, seja profissionalmente ou como hobby, para que não deixem de praticar o ato da resolução de problemas em si, ao invés de focar-se exclusivamente em aprender x linguagens e y *frameworks* diferentes.
 
 ## Problemas do mundo real
 
-No nosso dia a dia, nos deparamos com diversas situações que exigem que tomemos ações para suas resoluções.
+No nosso dia a dia, nos deparamos com diversas situações que exigem que tomemos ações para suas resoluções. Você pode pensar em diversas delas, desde o ato de escovar os dentes, abrir a porta de casa, limpar um cômodo, dirigir, dentre diversas outras atividades cotidianas. Todas essas atividades consistem de uma sequência de etapas, que unificadas, concluem a atividade.
 
-Você pode pensar em diversas delas, desde o ato de escovar os dentes, abrir a porta de casa, limpar um cômodo, dirigir, dentre diversos outras atividades cotidianas.
+É esse o principal pensamento que um programador deve solidificar: **o ato de dividir em etapas,** ou seja, decompor o problema em várias partes menores.
 
-Todas essas atividades consistem de uma sequência de etapas, que unificadas, concluem a atividade.
-
-É esse o principal pensamento que um programador deve solidificar: **o ato de dividir etapas,** ou seja, decompor o problema em várias partes menores.
-
-Exemplo de problema do mundo real:
-
-Fazer uma receita de torta de maçã:
+Como exemplo, podemos tomar o ato de fazer uma receita de torta de maçã:
 
 1. Triture maisena no processador e adicione a margarina até obter uma farofa úmida e homogênea
 2. Forre a base de uma fôrma de fundo removível
@@ -58,62 +50,68 @@ Fazer uma receita de torta de maçã:
 8. Leve a torta para assar em forno preaquecido a 180°C por cerca de 20 minutos
 9. Servir gelada
 
-Acima podemos ver quais as etapas necessárias para fazermos nossa torta de maçã. Se pudermos entender todas as etapas existentes, bem como também sua teoria, podemos realizar variações de nossa torta:
+Acima podemos ver quais foram as etapas necessárias para fazermos nossa torta de maçã. Se pudermos entender todas as etapas existentes, bem como também sua teoria, podemos realizar variações de nossa torta:
 
-- e se quiséssemos que nossa torta fosse de banana?
-- e se eu não tivesse um processador, o que faria? poderia trocar por um liquidificador?
+- e se quiséssemos que nossa torta fosse de banana? **R:** oras, para isso é só alterar a maçã pela banana na etapa **3**
+- e se eu não tivesse um processador, o que faria? **R:** trocaria o processador por um liquidificador, na etapa **1**
 
-Isso é o que ocorre exatamente no mundo da programação: muitas coisas já estão feitas; nossa receita de torta de mação, analogicamente, já foi implementada por outra pessoa, basta a nós apenas utilizarmos-a.
+Isso é o que ocorre exatamente no mundo da programação: muitas coisas já estão feitas; nossa receita de torta de maçã, já foi implementada por outra pessoa, nesse caso, o autor do livro de receitas, basta a nós apenas utilizarmos-a.
 
-Isso é muito bom por um lado, pois nos permite reaproveitar algo já feito e testado previamente por outra pessoa, porém por outro lado nos omite como aquela sequência de etapas foi realizada, além de que caso queiramos realizar alguma mudança, podemos ter muitas dificuldades se não entendermos as etapas individualmente.
+Isso é muito bom por um lado, pois nos permite reaproveitar algo já feito e testado previamente por outra pessoa, porém por outro lado nos omite como aquela sequência de etapas, realizada daquela maneira em específica **(aqui aplica-se a teoria)**, resultou na nossa torta de maçã. Além de que, caso queiramos realizar alguma mudança, podemos ter muitas dificuldades se não entendermos as etapas individualmente.
 
-Como desfecho dessa seção, deixo novamente a mensagem do foco em como resolver os problemas, tomando como base a sua decomposição em partes menores.
+Como desfecho dessa seção, deixo novamente o adendo no foco em como realizar a resolução de problemas, bem como sua decomposição em partes menores. O ato de decompor um problema em partes menores, e essas partes menores em outras menores ainda, é o que um programador mais faz no dia a dia. A principal razão disso se dá pela dificuldade que nós, humanos, temos em processar o problema como um todo de uma só vez, sendo mais fácil quando o mesmo é subdividido em etapas.
 
 ## Aprenda a Programar (finalmente!)
 
-Para dar início à programação em si, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
+Para dar início à programação em si, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de opções de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
 
-[I'm an inline-style link](https://www.google.com)
+Você pode encontrar muitos sites contendo guias de estudo de linguagens, como é o caso do Codecademy e o CodeSchool, sites que têm como foco o ensino de linguagens de programação de uma forma intuitiva e prática, principalmente através da resolução de exercícios.
 
-Aprenda Python na CodeCademy
+Abaixo você pode encontrar alguns links desses principais sites:
 
-Aprenda Python na CodeSchool
+[Aprenda Python na CodeCademy](https://www.codecademy.com/pt-BR/learn/python)
 
-Aprenda Ruby na CodeCademy
+[Aprenda Python na CodeSchool](https://www.codeschool.com/learn/python)
 
-Aprenda Ruby na CodeSchool
+[Aprenda Ruby na CodeCademy](https://www.codecademy.com/pt-BR/learn/ruby)
 
-Você pode encontrar muito material também em sites como o Udacity e o Coursera, que possuem também materiais relacionados também aos fundamentos de ciências da computação, como listado abaixo:
+[Aprenda Ruby na CodeSchool](https://www.codeschool.com/learn/ruby)
 
-Ciências da Computação 101 (Stanford) no Udacity
+Você pode encontrar muito material também em sites como o Udacity e o Coursera, que possuem também materiais relacionados aos conceitos fundamentais de ciências da computação, como listado abaixo:
 
-Ciências da Computação 101 (Stanford) no Coursera
+[Ciências da Computação 101 (Stanford) no Udacity](https://www.udacity.com/course/cs101)
+
+[Ciências da Computação 101 (Stanford) no Coursera](https://www.coursera.org/course/cs101)
 
 ## Aprenda os fundamentos de computação
 
-Após você ter uma base mínima de conhecimento sobre como funciona a lógica de programação, bem como também a sintaxe da linguagem escolhida, é necessário aprender sobre os conceitos de computação. Aprenda sobre os principais tipos de armazenamento de dados (stacks/pilhas, queues/filas, e bags/sacos), algoritmos de ordenação (quick sort, merge sort, heapsort), estruturas de dados (árvores binárias, árvores vermelhas e pretas, hash tables)  e também Big O. Esses tópicos são muitíssimos solicitados durante entrevistas e compõem o kernel dos fundamentos de ciências da computação.
+Após você ter uma base mínima de conhecimento sobre como funciona a lógica de programação, bem como também da linguagem escolhida, um passo importante, que muitas vezes não recebe atenção suficiente, é aprender sobre os conceitos de computação. Aprenda sobre os principais tipos de armazenamento de dados (lias, pilhas e filas), algoritmos de ordenação (quick sort, merge sort, heapsort), estruturas de dados (árvores binárias, árvores vermelhas e pretas, hash tables)  e também Big O.
 
-Curso de Algoritmos da Universidade de Princeton no Coursera
+Esses tópicos são muitíssimos solicitados durante entrevistas e compõem o cerne da computação.
+
+[Curso de Algoritmos da Universidade de Princeton no Coursera](https://www.coursera.org/course/algs4partI)
 
 ## Leia o código de outros
 
 Ler código é o que um programador mais faz em sua profissão, como diria Uncle Bob (Robert C. Martin):
 
-“Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of effort to write new code…[Therefore,] making it easy to read makes it easier to write” – Uncle Bob
+> “Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of effort to write new code…[Therefore,] making it easy to read makes it easier to write” – Uncle Bob
 
-Uncle Bob quis dizer na sentença acima que a proporção de leitura de código para escrita é da ordem de 10 para 1, isto é, você lê código 10 vezes mais do que escreve.
+Uncle Bob quis dizer na sentença acima que a proporção de leitura de código para escrita é da ordem de **10 para 1**, isto é, **você lê código 10 vezes mais do que escreve.**
 
-Portanto, podemos concluir que o melhor meio de se aprender a programar mais e melhor é certamente lendo código. Existem diversas comunidades de código aberto para você poder ler e aprender como outros desenvolvedores chegaram às suas soluções. Uma das comunidades mais conhecidas é o GitHub, uma plataforma social voltada para desenvolvedores que utiliza o sistema de controle de versão chamado Git (irei falar mais futuramente sobre esse controle de versão).
+Portanto, podemos concluir que o melhor meio de se aprender a programar mais e melhor é certamente lendo código. Existem diversas comunidades de código aberto para você poder ler e aprender como outros desenvolvedores chegaram as suas soluções. Uma das comunidades mais conhecidas é o GitHub, uma plataforma social voltada para desenvolvedores que utiliza o sistema de controle de versão chamado Git (irei falar mais futuramente sobre esse controle de versão).
 
-O bom de procurar projetos abertos e estudá-los é que eles em sua maioria já contém um grande volume de material, compostos por diversas classes e métodos, o que ajuda quando você for pegar um cenário real de desenvolvimento.
+O bom de procurar projetos abertos e contribuir com eles é que eles em sua maioria já contém um grande volume de material, compostos por diversas classes e métodos, o que ajuda quando você for pegar um cenário real de desenvolvimento.
 
 ## Programe!
 
-O principal ponto de aprender como programar é, certamente, o ato de programar. Escolha alguma ideia (encontrar banheiros públicos na região, por exemplo), seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não esqueça-se de contribuir com a comunidade, podendo deixar sua ideia de código aberto em uma plataforma como o GitHub.
+O principal ponto de aprender como programar é, certamente, o ato de programar.
+
+Escolha alguma ideia (desde a calcular a média de uma sequência de números até a encontrar banheiros públicos na região, por exemplo), seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não se esqueça de contribuir com a comunidade, podendo deixar sua ideia em alguma plataforma de código aberto, como o GitHub.
 
 ## Participe de alguma comunidade
 
-O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o StackOverflow, comunidade baseada no esquema de perguntas e respostas, bem como também no Quora, similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o Facebook e seus grupos, além também do Slack, que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
+O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o [StackOverflow](http://stackoverflow.com), comunidade baseada no esquema de perguntas e respostas, bem como também no [Quora](http://quora.com), similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o Facebook e seus grupos, além também do Slack, que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
 
 Um dos principais pontos de ser membro de uma comunidade é poder encontrar mentores. Um mentor é aquele que vai te auxiliar no caminho das pedras, é aquele que já passou por tudo que você vai passar, tanto como desenvolvedor como quanto ser humano, servindo como um guia, tanto no que diz respeito à decisões quanto também à materiais de estudo.
 
@@ -130,7 +128,6 @@ Outros eventos muitíssimos conhecidos também podem ser encontrados facilmente,
 ## Bootcamps
 
 Bootcamps são uma ótima forma de aumentar sua experiência e conhecimento em programação de uma maneira rápida e de forma prática, visto que são encontros de múltiplas semanas visando o aprendizado de uma linguagem, ferramenta, plataforma ou framework e sua posterior utilização em algum projeto.
-
 
 Uma lista de bootcamps pode ser encontrada abaixo:
 
