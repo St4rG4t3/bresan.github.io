@@ -13,7 +13,14 @@ layout: default
       {% if post.categories.size > 0 %}
       •
       {% for cat in post.categories %}
-        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+
+        {% if page.lang == "pt" %}
+          <a class="post-cat" href="{{ site.url }}/pt-br/categorias/#{{ cat }}">{{ cat }}</a>
+        {% elsif page.lang == "es" %}
+          <a class="post-cat" href="{{ site.url }}/es/categorias/#{{ cat }}">{{ cat }}</a>
+        {% else if page.lang == "en" %}
+          <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+        {% endif %}
         {% unless forloop.last %}
         <span>/</span>
         {% endunless %}
