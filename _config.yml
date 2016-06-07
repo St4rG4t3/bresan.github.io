@@ -34,6 +34,11 @@ languages:
   pt: "português"
   es: "español"
 
+flag:
+  en: usa_flag.png
+  pt: brazil_flag.png
+  es: spain_flag.png
+
 categories:
   en: "categories.html"
   pt: "/pt-br/categorias.html"
