@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Aprendendo a programar"
+title: "Learning programming"
 categories: [software]
 author: Rodrigo Bresan
 comments: true
 image:
   feature: https://raw.githubusercontent.com/rcbresan/rcbresan.github.io/master/img/hello_world.jpg
-lang: pt
+lang: en
 ref: learning-programming
 ---
 
