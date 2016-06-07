@@ -10,53 +10,68 @@ lang: pt
 ref: learning-to-program
 ---
 
-# Começando a programar
-
 Muitos amigos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” (sim, você ficou feliz a primeira vez que conseguiu rodar um Hello World, admita).
 
 Bom, venho então nesse post dar ênfase principalmente à materiais que creio que possam auxiliar àqueles que estão nessa jornada de aprendizado, seja por questões profissionais ou por puro hobby.
 
 <!--more-->
-## Participe de alguma comunidade
 
-O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o StackOverflow, comunidade baseada no esquema de perguntas e respostas, bem como também no Quora, similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o Facebook e seus grupos, além também do Slack, que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
+## Uma simples analogia
 
-Um dos principais pontos de ser membro de uma comunidade é poder encontrar mentores. Um mentor é aquele que vai te auxiliar no caminho das pedras, é aquele que já passou por tudo que você vai passar, tanto como desenvolvedor como quanto ser humano, servindo como um guia, tanto no que diz respeito à decisões quanto também à materiais de estudo.
+Analogicamente, digamos que você, leitor, queira aprender a cozinhar. Nesse post, supondo que seja relacionado à culinária, eu lhe recomendaria diversos livros sobre receitas que você provavelmente iria gostar de fazer.
 
-## Eventos
+Você provavelmente realizaria muitas das receitas com sucesso, todos gostariam e falariam bem de sua comida, sem dúvidas. Porém, caso você queira fazer algo novo, do zero, isso seria possível, sem entender o que se passa na cabeça de quem elaborou a receita?
 
-Eventos também são importantíssimos para quem está iniciando na carreira, por proporcionarem principalmente uma interação mais pessoal entre a comunidade, visto que em muitos casos nosso dia a dia resume-se a ficar em frente a um computador e participar de reuniões, com pouca ou nenhuma interação pessoal. Eventos estão aí para isso, conversar de uma maneira mais descontraída com pessoas que fazem o mesmo que você, sobre tópicos em comum.
+É esse o conceito que viso abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita vs o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar versus o ato de entender a teoria por trás do programa.
 
-Um ponto chave no que diz respeito à participação de eventos se dá principalmente nos contatos realizados, ou o tão famoso networking. Hoje em dia, principalmente em nossa área, boa parte da nossa carreira profissional será definida pelos contatos que você possui, visto que o fator QI (Quem Indica) tem um peso muito alto na contratação, tendo que em boa parte as indicações são realizadas por alguém já interno à empresa.
+É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série Aprenda [insira_aqui_a_linguagem] em 21 dias.
 
-Uma lista de diversos eventos próximos a você pode ser encontrada no site Meetup, que conta com um acervo gigante de eventos em todo o país, sendo eles tanto de grande porte quanto aqueles de fundo de garagem.
+Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
 
-Outros eventos muitíssimos conhecidos também podem ser encontrados facilmente, como o TDC (The Developers Conference), DevCamp, QCon, Rupy, dentre diversos outros, são eventos que devem estar em sua agenda.
+Um programador não é meramente um indivíduo que sabe uma ou várias linguagens de programação; um programador é um indivíduo que, na **busca pela resposta de um problema**, se utiliza destas linguagens e ferramentas para sua resolução.
 
-## Bootcamps
+**E é isso que fazemos todos os dias: resolvemos problemas.**
 
-Bootcamps são uma ótima forma de aumentar sua experiência e conhecimento em programação de uma maneira rápida e de forma prática, visto que são encontros de múltiplas semanas visando o aprendizado de uma linguagem, ferramenta, plataforma ou framework e sua posterior utilização em algum projeto.
+Portanto, deixo aqui o adendo àqueles que visam iniciar nesse mundo, para que não deixem de praticar o ato da resolução de problemas, ao invés de aprender x linguagens e y frameworks.
 
+## Problemas do mundo real
 
-Uma lista de bootcamps pode ser encontrada abaixo:
+No nosso dia a dia, nos deparamos com diversas situações que exigem que tomemos ações para suas resoluções.
 
-**App Academy:** Bootcamp com foco em Engenharia de Software com duração de 3 meses que não cobra nada até que você encontre um emprego como desenvolvedor;
+Você pode pensar em diversas delas, desde o ato de escovar os dentes, abrir a porta de casa, limpar um cômodo, dirigir, dentre diversos outras atividades cotidianas.
 
-**Viking Code School:** Bootcamp remoto com uma comunidade colaborativa muito boa, possuindo enfoque em desenvolvimento web. Livre também de custos até que encontre uma posição de desenvolvedor.
+Todas essas atividades consistem de uma sequência de etapas, que unificadas, concluem a atividade.
 
-**Telegraph Academy:** Bootcamp voltado para as minorias não representadas, com foco em ser acessível à todos independentemente de sua condição financeiro. Possui um enfoque em Engenharia de Software e tem duração de 3 meses.
+É esse o principal pensamento que um programador deve solidificar: **o ato de dividir etapas,** ou seja, decompor o problema em várias partes menores.
 
-Há diversos outros Bootcamps, porém muitos deles possuem valores que digamos que possam ser exorbitantes para os padrões brasileiros, como é o caso dos que serão listados abaixo:
+Exemplo de problema do mundo real:
 
-**HackReactor:** Bootcamp remoto e cursos presenciais para o aprendizado de desenvolvimento web, com ênfase também em fundamentos de ciências da computação.
+Fazer uma receita de torta de maçã:
 
-**Hack Bright:** Comunidade voltada para o público feminino com interesse em aprender como se tornar um desenvolvedor de software.
+1. Triture maisena no processador e adicione a margarina até obter uma farofa úmida e homogênea
+2. Forre a base de uma fôrma de fundo removível
+3. Leve ao fogo médio: a maçã ralada, o açúcar e o limão e cozinhe até a a água secar
+4. Acrescente a canela e deixe esfriar e após isso espalhe sobre a base de biscoitos
+5. Leve ao fogo em uma panela: o leite condensado, as gemas e a baunilha e mexa até engrossar
+6. Desligue o fogo e acrescente o creme de leite
+7. Despeje por cima do doce de maçã e polvilhe com canela
+8. Leve a torta para assar em forno preaquecido a 180°C por cerca de 20 minutos
+9. Servir gelada
 
-## Aprenda a Programar
+Acima podemos ver quais as etapas necessárias para fazermos nossa torta de maçã. Se pudermos entender todas as etapas existentes, bem como também sua teoria, podemos realizar variações de nossa torta:
 
-Muitos conhecidos meus querem entrar nesse mundo, porém acham que iniciar com eventos ou bootcamps é demais, muitos querem apenas conseguir fazer um programa de uma forma simples e rápida. Esta seção visa o enfoque no quesito “Aprender a Programar”, simples e puramente.
+- e se quiséssemos que nossa torta fosse de banana?
+- e se eu não tivesse um processador, o que faria? poderia trocar por um liquidificador?
 
-Para dar início à programação, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
+Isso é o que ocorre exatamente no mundo da programação: muitas coisas já estão feitas; nossa receita de torta de mação, analogicamente, já foi implementada por outra pessoa, basta a nós apenas utilizarmos-a.
+
+Isso é muito bom por um lado, pois nos permite reaproveitar algo já feito e testado previamente por outra pessoa, porém por outro lado nos omite como aquela sequência de etapas foi realizada, além de que caso queiramos realizar alguma mudança, podemos ter muitas dificuldades se não entendermos as etapas individualmente.
+
+Como desfecho dessa seção, deixo novamente a mensagem do foco em como resolver os problemas, tomando como base a sua decomposição em partes menores.
+
+## Aprenda a Programar (finalmente!)
+
+Para dar início à programação em si, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
 
 [I'm an inline-style link](https://www.google.com)
 
@@ -95,6 +110,41 @@ O bom de procurar projetos abertos e estudá-los é que eles em sua maioria já 
 ## Programe!
 
 O principal ponto de aprender como programar é, certamente, o ato de programar. Escolha alguma ideia (encontrar banheiros públicos na região, por exemplo), seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não esqueça-se de contribuir com a comunidade, podendo deixar sua ideia de código aberto em uma plataforma como o GitHub.
+
+## Participe de alguma comunidade
+
+O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o StackOverflow, comunidade baseada no esquema de perguntas e respostas, bem como também no Quora, similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o Facebook e seus grupos, além também do Slack, que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
+
+Um dos principais pontos de ser membro de uma comunidade é poder encontrar mentores. Um mentor é aquele que vai te auxiliar no caminho das pedras, é aquele que já passou por tudo que você vai passar, tanto como desenvolvedor como quanto ser humano, servindo como um guia, tanto no que diz respeito à decisões quanto também à materiais de estudo.
+
+## Eventos
+
+Eventos também são importantíssimos para quem está iniciando na carreira, por proporcionarem principalmente uma interação mais pessoal entre a comunidade, visto que em muitos casos nosso dia a dia resume-se a ficar em frente a um computador e participar de reuniões, com pouca ou nenhuma interação pessoal. Eventos estão aí para isso, conversar de uma maneira mais descontraída com pessoas que fazem o mesmo que você, sobre tópicos em comum.
+
+Um ponto chave no que diz respeito à participação de eventos se dá principalmente nos contatos realizados, ou o tão famoso networking. Hoje em dia, principalmente em nossa área, boa parte da nossa carreira profissional será definida pelos contatos que você possui, visto que o fator QI (Quem Indica) tem um peso muito alto na contratação, tendo que em boa parte as indicações são realizadas por alguém já interno à empresa.
+
+Uma lista de diversos eventos próximos a você pode ser encontrada no site Meetup, que conta com um acervo gigante de eventos em todo o país, sendo eles tanto de grande porte quanto aqueles de fundo de garagem.
+
+Outros eventos muitíssimos conhecidos também podem ser encontrados facilmente, como o TDC (The Developers Conference), DevCamp, QCon, Rupy, dentre diversos outros, são eventos que devem estar em sua agenda.
+
+## Bootcamps
+
+Bootcamps são uma ótima forma de aumentar sua experiência e conhecimento em programação de uma maneira rápida e de forma prática, visto que são encontros de múltiplas semanas visando o aprendizado de uma linguagem, ferramenta, plataforma ou framework e sua posterior utilização em algum projeto.
+
+
+Uma lista de bootcamps pode ser encontrada abaixo:
+
+**App Academy:** Bootcamp com foco em Engenharia de Software com duração de 3 meses que não cobra nada até que você encontre um emprego como desenvolvedor;
+
+**Viking Code School:** Bootcamp remoto com uma comunidade colaborativa muito boa, possuindo enfoque em desenvolvimento web. Livre também de custos até que encontre uma posição de desenvolvedor.
+
+**Telegraph Academy:** Bootcamp voltado para as minorias não representadas, com foco em ser acessível à todos independentemente de sua condição financeiro. Possui um enfoque em Engenharia de Software e tem duração de 3 meses.
+
+Há diversos outros Bootcamps, porém muitos deles possuem valores que digamos que possam ser exorbitantes para os padrões brasileiros, como é o caso dos que serão listados abaixo:
+
+**HackReactor:** Bootcamp remoto e cursos presenciais para o aprendizado de desenvolvimento web, com ênfase também em fundamentos de ciências da computação.
+
+**Hack Bright:** Comunidade voltada para o público feminino com interesse em aprender como se tornar um desenvolvedor de software.
 
 # Notas finais
 
