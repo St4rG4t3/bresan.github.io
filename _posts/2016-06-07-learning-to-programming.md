@@ -10,98 +10,86 @@ lang: en
 ref: learning-programming
 ---
 
-Muitos amigos e conhecidos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” *(sim, todos nós ficamos felizes quando conseguimos rodar nosso Hello World, admitamos)*.
+Many friends of mine come to me asking for advice about how to start programming, or in some cases, how to proceed after their first "Hello World" *(yeah, all of us feel excitement after we run our first Hello World, come on)*.
 
-Venho então nesse post dar ênfase principalmente a conselhos e materiais que creio que possam auxiliar àqueles que estão nessa jornada de aprendizado, seja por questões profissionais ou por puro hobby.
+My purpose on this post is to give advices and resources to anyone who is interested in this journey of learning, whatever reason motivates you, professionally or just by hobby.
 
 <!--more-->
 
-## Uma simples analogia
+## A simple analogy
 
-Digamos que você, leitor, queira aprender a cozinhar. Nesse post, supondo que esse blog fosse relacionado à culinária, eu lhe recomendaria diversos livros sobre receitas que você provavelmente iria gostar de fazer.
+Let's say that you, my reader, want to learn how to cook. In this post, if this were a blog related to culinary , I would recommend you many books about recipes you would enjoy to do.
 
-Você provavelmente realizaria muitas das receitas com sucesso, todos provariam e falariam bem de sua comida, sem dúvidas, visto que você seguiu a receita corretamente. Porém, caso você queira alterar algo na receita, isso seria possível, sem entender o que se passa na cabeça de quem a elaborou?
+You would probably do many of these recipes successfully, with many positive feedbacks from another people, of course, if you had followed the recipes instructions correctly. But, if you want to change something in the recipe, or if some ingredient is missing, what are you supposed to do without knowing what was happening inside the head of who write the recipe?
 
-É esse o conceito que viso abordar primariamente nesse post, através dessa analogia: o ato de seguir uma receita em comparação com o ato de entender a teoria por trás dela. No mundo da programação, podemos seguir essa analogia também, através da comparação entre o ato de programar em relação ao ato de entender a teoria por trás do programa.
+This is the concept we are going to see in this post, through this analogy: the act of following a set of instructions **versus** the act of understand the theory behind it. In the programming world, we can follow this analogy too, just by comparing the act of programming **versus** the act of understand the theory behind the program.
 
-É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série "Aprenda *[insira_aqui_a_linguagem]* em 21 dias". Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
+It's very common to find resources with the promise of teach some topic in a short time of time, like the series "Learn *[insert_here_the_language]* in 21 days". These kind of material, while present the main concepts of the language, can lead to us to a fake understand what really is the act of programming.
 
-Um programador não é meramente um indivíduo que sabe uma ou várias linguagens de programação; um programador é um indivíduo que, na **busca pela resposta de um problema**, se utiliza destas linguagens e ferramentas para sua resolução.
+A software developer is not only someone which knows one or many programming languages; a software developer is someone that in the search for the **answer of a problem**, uses these many programming languages and tools.
 
-**E é isso que fazemos todos os dias: resolvemos problemas.**
+**And this is it what we do everyday: solve problems**
 
-Portanto, deixo aqui esta mensagem para aqueles que visam iniciar nesse mundo, seja profissionalmente ou como hobby, para que não deixem de praticar o ato da resolução de problemas em si, ao invés de focar-se exclusivamente em aprender x linguagens e y *frameworks* diferentes.
+So, this is my advice for beginners: focus on the ability to solve problems, instead of learning x programming languages and n frameworks.
 
-## Problemas do mundo real
+## Real world problems
 
-No nosso dia a dia, nos deparamos com diversas situações que exigem que tomemos ações para suas resoluções. Você pode pensar em diversas delas, desde o ato de escovar os dentes, abrir a porta de casa, limpar um cômodo, dirigir, dentre diversas outras atividades cotidianas. Todas essas atividades consistem de uma sequência de etapas, que unificadas, concluem a atividade.
+On our everyday lives, we face many situations where we need to take actions for their accomplishments. You can think in many of these situations, since the act of brushing your teeth, open a door, clean a room, drive, by many others. All these activities are made by many steps that together, accomplish the activity.
 
-É esse o principal pensamento que um programador deve solidificar: **o ato de dividir em etapas,** ou seja, decompor o problema em várias partes menores.
+This is the main philosophy a software developer must have in his mind is the **act of divide some activity into steps**, or in other words, decompose the problem in many steps.
 
-Como exemplo, podemos tomar o ato de fazer uma receita de torta de maçã:
+As example, we can decompose the act of making an apple pie:
 
-1. Triture maisena no processador e adicione a margarina até obter uma farofa úmida e homogênea
-2. Forre a base de uma fôrma de fundo removível
-3. Leve ao fogo médio: a maçã ralada, o açúcar e o limão e cozinhe até a a água secar
-4. Acrescente a canela e deixe esfriar e após isso espalhe sobre a base de biscoitos
-5. Leve ao fogo em uma panela: o leite condensado, as gemas e a baunilha e mexa até engrossar
-6. Desligue o fogo e acrescente o creme de leite
-7. Despeje por cima do doce de maçã e polvilhe com canela
-8. Leve a torta para assar em forno preaquecido a 180°C por cerca de 20 minutos
-9. Servir gelada
+1. Preheat oven to 425 degrees F (220 degrees C). Melt the butter in a saucepan. Stir in flour to form a paste. Add water, white sugar and brown sugar, and bring to a boil. Reduce temperature and let simmer.
+2. Place the bottom crust in your pan. Fill with apples, mounded slightly. Cover with a lattice work crust. Gently pour the sugar and butter liquid over the crust. Pour slowly so that it does not run off.
+3. Bake 15 minutes in the preheated oven. Reduce the temperature to 350 degrees F (175 degrees C). Continue baking for 35 to 45 minutes, until apples are soft.
 
-Acima podemos ver quais foram as etapas necessárias para fazermos nossa torta de maçã. Se pudermos entender todas as etapas existentes, bem como também sua teoria, podemos realizar variações de nossa torta:
+Above we can see all the steps needed to do our apple pie. If we can fully understand these steps, as well as the theory behind it, we can change our apple pie to anything we want - like a banana pie.
 
-- e se quiséssemos que nossa torta fosse de banana? **R:** oras, para isso é só alterar a maçã pela banana na etapa **3**
-- e se eu não tivesse um processador, o que faria? **R:** trocaria o processador por um liquidificador, na etapa **1**
+This is a good point by one point of view, since it allows us to reuse something already made and tested by another person, but by another point of view it hides from us how that sequence of steps in that way produces that result **(here applies the theory)**. Also, if we need to change something in our recipe, we can have many nightmares if we don't understand each step by itself.
 
-Isso é o que ocorre exatamente no mundo da programação: muitas coisas já estão feitas; nossa receita de torta de maçã, já foi implementada por outra pessoa, nesse caso, o autor do livro de receitas, basta a nós apenas utilizarmos-a.
+The main point I want to advice you in this section, is to learn how to solve problems, as well as decompose them into steps. The ability of decompose a problem in small steps, and these small steps in another ones, and this consecutively is what a software developer does on its everyday. The main reason of this it's by the that we, as humans beings, have a hard time when it comes to keeping all these steps like a single one in our head, being way easier when we decompose it in many steps.
 
-Isso é muito bom por um lado, pois nos permite reaproveitar algo já feito e testado previamente por outra pessoa, porém por outro lado nos omite como aquela sequência de etapas, realizada daquela maneira em específica **(aqui aplica-se a teoria)**, resultou na nossa torta de maçã. Além de que, caso queiramos realizar alguma mudança, podemos ter muitas dificuldades se não entendermos as etapas individualmente.
+## Learn programming
 
-Como desfecho dessa seção, deixo novamente o adendo no foco em como realizar a resolução de problemas, bem como sua decomposição em partes menores. O ato de decompor um problema em partes menores, e essas partes menores em outras menores ainda, é o que um programador mais faz no dia a dia. A principal razão disso se dá pela dificuldade que nós, humanos, temos em processar o problema como um todo de uma só vez, sendo mais fácil quando o mesmo é subdividido em etapas.
+To start learn programming, you will need first to choose a programming language. I personally advice you to go with Python or Ruby, since they have an easy learning curve, as well as some excellent documentation and community. Both of these languages serve on the main purposes of development, since simple scripts, web applications until mobile apps.
 
-## Aprenda a Programar (finalmente!)
+You can find many websites with study guides for these languages, such as the CodeCademy and the CodeSchool, websites which focuses is to teach programming languages in an interactive way, mainly by solving problems using the languages.
 
-Para dar início à programação em si, você primeiramente deve escolher uma linguagem para iniciar seus estudos. Eu recomendo Python ou Ruby, visto sua fácil compreensão e curva de aprendizado, bem como também sua excelente documentação e comunidade, além de servirem para uma gama gigante de opções de desenvolvimento, desde a criação de scripts, aplicações web até mesmo a criação de simples aplicações móveis.
+Below you can find the links for these websites.
 
-Você pode encontrar muitos sites contendo guias de estudo de linguagens, como é o caso do Codecademy e o CodeSchool, sites que têm como foco o ensino de linguagens de programação de uma forma intuitiva e prática, principalmente através da resolução de exercícios.
+[Learn Python on CodeCademy](https://www.codecademy.com/learn/python)
 
-Abaixo você pode encontrar alguns links desses principais sites:
+[Learn Python on CodeSchool](https://www.codeschool.com/learn/python)
 
-[Aprenda Python na CodeCademy](https://www.codecademy.com/pt-BR/learn/python)
+[Learn Ruby on CodeCademy](https://www.codecademy.com/learn/ruby)
 
-[Aprenda Python na CodeSchool](https://www.codeschool.com/learn/python)
+[Learn Ruby on CodeSchool](https://www.codeschool.com/learn/ruby)
 
-[Aprenda Ruby na CodeCademy](https://www.codecademy.com/pt-BR/learn/ruby)
+You can find many other resources for learning in sites like Udacity and Coursera, which have stuff related to the main concepts of computer science, as shown below:
 
-[Aprenda Ruby na CodeSchool](https://www.codeschool.com/learn/ruby)
+[Computer Science 101 (Stanford) on Udacity](https://www.udacity.com/course/cs101)
 
-Você pode encontrar muito material também em sites como o Udacity e o Coursera, que possuem também materiais relacionados aos conceitos fundamentais de ciências da computação, como listado abaixo:
+[Computer Science 101 (Stanford) on Coursera](https://www.coursera.org/course/cs101)
 
-[Ciências da Computação 101 (Stanford) no Udacity](https://www.udacity.com/course/cs101)
+## Learn the core of computer science
 
-[Ciências da Computação 101 (Stanford) no Coursera](https://www.coursera.org/course/cs101)
+After you got some basic knowledge about how solve problems, as well as learning some programming language, an important step, most of times skipped away, is learning about the core concepts of computer science. Learn about the many ways of store data (lists, stacks and queues), sorting algorithms (quick sort, merge sort, heap sort), data structures (binary trees, red-black trees, hash tables), and Big O.
 
-## Aprenda os fundamentos de computação
+These topics listed above are the core of computer science, and are a lot requested during interviews (!).
 
-Após você ter uma base mínima de conhecimento sobre como funciona a lógica de programação, bem como também da linguagem escolhida, um passo importante, que muitas vezes não recebe atenção suficiente, é aprender sobre os conceitos de computação. Aprenda sobre os principais tipos de armazenamento de dados (lias, pilhas e filas), algoritmos de ordenação (quick sort, merge sort, heapsort), estruturas de dados (árvores binárias, árvores vermelhas e pretas, hash tables)  e também Big O.
+[Algorithms Course of the University of Princeton on Coursera](https://www.coursera.org/course/algs4partI)
 
-Estes tópicos compõem o cerne da computação e também são muitíssimos solicitados durante entrevistas (!).
+## Read code written by others
 
-[Curso de Algoritmos da Universidade de Princeton no Coursera](https://www.coursera.org/course/algs4partI)
-
-## Leia o código de outros
-
-Ler código é o que um programador mais faz em sua profissão, como diria Uncle Bob (Robert C. Martin):
+Read code is what a developer most does in their everyday live as professional, as said by Uncle Bob (Robert C. Martin):
 
 > “Indeed, the ratio of time spent reading versus writing is well over 10 to 1. We are constantly reading old code as part of effort to write new code…[Therefore,] making it easy to read makes it easier to write” – Uncle Bob
 
-Uncle Bob quis dizer na sentença acima que a proporção de leitura de código para escrita é da ordem de **10 para 1**, isto é, **você lê código 10 vezes mais do que escreve.**
+By the quote above, we can conclude that the best way to learn programming is by reading code. There are many communities of open source code with lots of projects ready to be read and have your contribution. One of most popular of these communities is [GitHub](http://github.com), a social platform focused on open source projects, which uses the Git versioning system (I'll be creating a post for it later).
 
-Portanto, podemos concluir que o melhor meio de se aprender a programar mais e melhor é certamente lendo código. Existem diversas comunidades de código aberto para você poder ler e aprender como outros desenvolvedores chegaram as suas soluções. Uma das comunidades mais conhecidas é o [GitHub](http://github.com), uma plataforma social voltada para desenvolvedores que utiliza o sistema de controle de versão chamado Git (irei falar mais futuramente sobre esse controle de versão).
+The good point of look for open source projects is that many of these already an substantial volume of code, which will be pretty good for you, since in our everyday lives as programmers, it's pretty common to work on huge projects.
 
-O bom de procurar projetos abertos e contribuir com eles é que eles em sua maioria já contém um grande volume de material, compostos por diversas classes e métodos, o que ajuda quando você for pegar um cenário real de desenvolvimento.
 
 ## Programe!
 
