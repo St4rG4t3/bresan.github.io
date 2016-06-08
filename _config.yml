@@ -6,11 +6,11 @@
 title:
   en: "Rodrigo Bresan - Mobile Development"
   pt: "Rodrigo Bresan - Software e Desenvolvimento Móvel"
-  es: "Rodrigo Bresan - Mobile Desenvolvimento"
+  es: "Rodrigo Bresan - Desarrollo de software"
 description:
   en: "Mobile Development"
   pt: "Software e Desenvolvimento Móvel"
-  es: "Mobile Desenvolvimento"
+  es: "Desarrollo de Software"
 
 read_also:
   en: "Read also in "
@@ -146,27 +146,27 @@ owner:
   job:
     en: "Mobile Developer"
     pt: "Desenvolvedor Móvel"
-    es: "Cucaracha"
+    es: "Desarrollador de Aplicaciones Móviles"
   bio:
-    en: "Mobile Developer"
-    pt: "Desenvolvedor Movel"
-    es: "Arriba"
-  email:
+    en: ""
+    pt: ""
+    es: ""
+  email: rcbresan@gmail.com
   disqus-shortname: bresan
   twitter:
-  facebook: rodrigobresan
+  facebook:
   google:
-    plus:
+    plus: 108017214171401914661
     analytics:
     verify:
     ad-client:
     ad-slot:
   bing-verify:
   github: bresan
-  stackoverflow: 6432460/rodrigo-bresan
+  stackoverflow:
   linkedin: bresan
   xing: bresan
-  instagram: bresan
+  instagram:
   lastfm: #username
   tumblr: #username
   pinterest: #username
