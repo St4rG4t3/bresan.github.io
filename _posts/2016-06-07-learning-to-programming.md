@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Learning programming"
+title: "Learn programming"
 categories: [software]
 author: Rodrigo Bresan
 comments: true
@@ -12,7 +12,7 @@ ref: learning-programming
 
 Many friends of mine come to me asking for advice about how to start programming, or in some cases, how to proceed after their first "Hello World" *(yeah, all of us feel excitement after we run our first Hello World, come on)*.
 
-My purpose on this post is to give advices and resources to anyone who is interested in this journey of learning, whatever reason motivates you, professionally or just by hobby.
+The main purpose of this post is to give advices and resources to anyone who is interested in this journey of learning, whatever reason motivates you, professionally or just by hobby.
 
 <!--more-->
 
@@ -90,55 +90,47 @@ By the quote above, we can conclude that the best way to learn programming is by
 
 The good point of look for open source projects is that many of these already an substantial volume of code, which will be pretty good for you, since in our everyday lives as programmers, it's pretty common to work on huge projects.
 
+## Program!
 
-## Programe!
+The key factor for learn programming is through programming by yourself.
 
-O principal ponto de aprender como programar é, certamente, o ato de programar.
+Pick some idea *(since calculate the media of a sequence of values until finding the nearest bathroom)*, being this one simple or complex, and just do it. Start with something simple, and with the time, evolve it. Don't forget to contribute with your idea on open source communities (like GitHub), so people can give you feedback about it.
 
-Escolha alguma ideia *(desde a calcular a média de uma sequência de números até a encontrar banheiros públicos na região, por exemplo)*, seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não se esqueça de contribuir com a comunidade, podendo deixar sua ideia em alguma plataforma de código aberto, como o GitHub.
+## Join some community
 
-## Participe de alguma comunidade
+The number of communities focused on software development it's increasing everyday. You can find groups about any kind of topic on the most different platforms of communication, such as the [StackOverflow](http://stackoverflow.com), an website based on the Questions & Answers model, as well as the [Quora](http://quora.com), similar to the StackOverflow. Another increasing communities are the [Facebook](http://facebook.com) with it's groups and the [Slack](http://slack.com) with it's many channels.
 
-O número de comunidades de desenvolvedores nunca foi tão grande como é hoje em dia. Você pode encontrar grupos sobre os mais variados tópicos nas mais diversas plataformas de comunicação, podendo utilizar como exemplo o [StackOverflow](http://stackoverflow.com), comunidade baseada no esquema de perguntas e respostas, bem como também no [Quora](http://quora.com), similar ao citado anteriormente. Outros meios de comunicação fortíssimos na comunidade de desenvolvimento são também o [Facebook](http://facebook.com) e seus grupos, além também do [Slack](http://slack.com), que é uma plataforma de comunicação similar ao mIRC, onde os usuários podem criar um grupo com um interesse em específico e também canais dentro deste, permitindo uma maior subdivisão dos tópicos.
+## Find a mentor
 
-## Encontre um mentor
+One of the greatest advices I can give to you here is to find a mentor. But what is a mentor? A mentor is the guy who once was like you, so he will guide you through this process of learning, showing to you which paths you can take and the consequences of your choices.
 
-Um ótimo conselho que eu dou a todos é encontrar um mentor. *Não pensem mentor como sendo um cara com um crachá escrito "Mentor"*. Um mentor é um indivíduo comum, que nem eu e você, mas que já passou pelas dificuldades que você irá passar durante o aprendizado. Esse é o cara que vai te guiar minimamente durante esse processo, te falando quais caminhos você pode tomar, e as consequências de cada um deles.
+"Alright, I want a mentor, where should I look for one?", you says. Well, for looking for a mentor, you must the single rule for finding one:
 
-**Regra 1: Para encontrar um mentor, não procure por um.**
+**Rule 1: To find a mentor, don't look for one**
 
-Parece contraditório, não? Mas é assim que funciona. Dificilmente você irá encontrar um mentor apenas procurando por um. O melhor jeito de encontrar um, é tentando tornar-se um melhor desenvolvedor. Escreva código, participe de projetos de código aberto, vá a meetups e eventos, assim você estará no meio de pessoas que compartilham dos mesmos interesses que você, e então será fácil achar não um, mas várias pessoas para te auxiliarem nessa jornada.
+Looks contraditory, doesn't it? But this is how it works. It will be hard, if not impossible, to find a mentor just by looking for one. The best way to find one, is to become a better software developer. Write code, contribute on open source projects and go to meetups and events related to programming. This way, you will be with people that share the same mindset that you, and then it will be easy to find someone to guide you in this journey.
 
-## Eventos
 
-Eventos também são importantíssimos para quem está iniciando na carreira, por proporcionarem principalmente uma interação mais pessoal entre a comunidade, visto que em muitos casos nosso dia a dia resume-se a ficar em frente a um computador e participar de reuniões, com pouca ou nenhuma interação pessoal. Eventos estão aí para isso, conversar de uma maneira mais descontraída com pessoas que fazem o mesmo que você, sobre tópicos em comum.
+## Events
 
-Um ponto chave no que diz respeito à participação de eventos se dá principalmente nos contatos realizados, ou o tão famoso networking. Hoje em dia, principalmente em nossa área, boa parte da nossa carreira profissional será definida pelos contatos que você possui, visto que o fator QI (Quem Indica) tem um peso muito alto na contratação, tendo que em boa parte as indicações são realizadas por alguém já interno à empresa.
-
-Uma lista de diversos eventos próximos a você pode ser encontrada no site Meetup, que conta com um acervo gigante de eventos em todo o país, sendo eles tanto de grande porte quanto aqueles de fundo de garagem.
-
-Outros eventos muitíssimos conhecidos também podem ser encontrados facilmente, como o TDC (The Developers Conference), DevCamp, QCon, Rupy, dentre diversos outros, são eventos que devem estar em sua agenda.
+Events are also an important thing for developers, mainly when it comes to the career. Events are a nice place for talking about an specific topic with people that are interested in the same things that you are. One major point is also the networking that events can allow you to have.
 
 ## Bootcamps
 
-Bootcamps são uma ótima forma de aumentar sua experiência e conhecimento em programação de uma maneira rápida e de forma prática, visto que são encontros de múltiplas semanas visando o aprendizado de uma linguagem, ferramenta, plataforma ou framework e sua posterior utilização em algum projeto.
+Boootcamps are a great way to increase your experience and knowledge in a fast and solid way, since they are based of many meetups focusing on the learning and application of some technology (language, framework, etc).
 
-Uma lista de bootcamps pode ser encontrada abaixo:
+Some meetups can be found below:
 
-**App Academy:** Bootcamp com foco em Engenharia de Software com duração de 3 meses que não cobra nada até que você encontre um emprego como desenvolvedor;
+**App Academy:** Bootcamp focused on Software engineering with 3 months duration. It doesn't charge you nothing until you find a job as developer.
 
-**Viking Code School:** Bootcamp remoto com uma comunidade colaborativa muito boa, possuindo enfoque em desenvolvimento web. Livre também de custos até que encontre uma posição de desenvolvedor.
+**Viking Code School:** Remote bootcamp focused on web development. Free of charge until you find a job.
 
-**Telegraph Academy:** Bootcamp voltado para as minorias não representadas, com foco em ser acessível à todos independentemente de sua condição financeiro. Possui um enfoque em Engenharia de Software e tem duração de 3 meses.
+**HackReactor:** Remote and often presencial bootcamp focused on web development, as well some concepts of coumputer science.
 
-Há diversos outros Bootcamps, porém muitos deles possuem valores que digamos que possam ser exorbitantes para os padrões brasileiros, como é o caso dos que serão listados abaixo:
+**Hack Bright:** Focused on the woman public with interest in software development. um desenvolvedor de software.
 
-**HackReactor:** Bootcamp remoto e cursos presenciais para o aprendizado de desenvolvimento web, com ênfase também em fundamentos de ciências da computação.
+# Final notes
 
-**Hack Bright:** Comunidade voltada para o público feminino com interesse em aprender como se tornar um desenvolvedor de software.
+With this guide, I hope help anyone who is looking for how to enter in the software development world, as well to give advices for those who already have some knowledge about it. In case of any question, feel free to ask to me.
 
-# Notas finais
-
-Com esse guia espero auxiliar àqueles que estão adentrando no mundo da programação, bem como também que sirva para quem já possui uma mínima noção. No caso de qualquer dúvida, sintam-se a vontade de perguntar, tanto por aqui quanto por mídias sociais.
-
-## Até mais e boa programação!
+## See you later and have fun!
