@@ -26,7 +26,7 @@ Você provavelmente realizaria muitas das receitas com sucesso, todos provariam 
 
 É muito comum encontrarmos materiais prometendo o aprendizado de uma determinada linguagem em um curto prazo de tempo, como a série "Aprenda *[insira_aqui_a_linguagem]* em 21 dias". Esse tipo de livro, embora aborde os conceitos da linguagem de forma plena, pode nos levar a uma falsa compreensão do que é realmente o ato de programar.
 
-Um programador não é meramente um indivíduo que sabe uma ou várias linguagens de programação; um programador é um indivíduo que, na **busca pela resposta de um problema**, se utiliza destas linguagens e ferramentas para sua resolução.
+Um programador não é meramente um indivíduo que sabe uma ou várias linguagens de programação; um programador é um indivíduo que, na **busca pela resposta de um problema**, se utiliza destas linguagens e ferramentas para sua resolução, e entende como a utilização de todas essas ferramentas interagingo entre si o possibilitam a resolução de seu problema.
 
 **E é isso que fazemos todos os dias: resolvemos problemas.**
 
