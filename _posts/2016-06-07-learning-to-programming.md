@@ -86,7 +86,7 @@ By the quote above, we can learn that the act of reading code has a giant paper 
 
 The good point of read and contribute on open source projects is that many of these already an substantial volume of code, which will be pretty good for you, since in our everyday lives as programmers, it's pretty common to work on huge projects.
 
-## Program!
+## Start programming!
 
 The key factor for learn programming is through programming by yourself.
 

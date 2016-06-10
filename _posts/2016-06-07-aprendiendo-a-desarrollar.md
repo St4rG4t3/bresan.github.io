@@ -6,9 +6,14 @@ author: Rodrigo Bresan
 comments: true
 image:
   feature: https://raw.githubusercontent.com/rcbresan/rcbresan.github.io/master/img/hello_world.jpg
-lang: es
+lang:
 ref: learning-programming
 ---
+
+Muchos amigos y conocidos míos me han preguntado acerca de cómo iniciar en este mundo de la programación, o cómo proceder después de conseguir ejecutar su primer "Hello World" (sí, todos tuvimos un momento de felicidad cuando pudemós ejectuar nuestro Hello World).
+
+Entonces vengo en este post destacas sobre todo el asesoramiento y materiales que creo que pueden ayudar a los que están en este camino de aprendizaje, sea por profesionales o por motivos de puro hobby.
+
 
 Muitos amigos e conhecidos meus vêm me perguntando sobre como começar nesse mundo da programação, ou mesmo como prosseguir após conseguir executar o seu primeiro “Hello World” *(sim, todos nós ficamos felizes quando conseguimos rodar nosso Hello World, admitamos)*.
 
