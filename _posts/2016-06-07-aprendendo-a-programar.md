@@ -83,6 +83,10 @@ Você pode encontrar muito material também em sites como o Udacity e o Coursera
 
 [Ciências da Computação 101 (Stanford) no Coursera](https://www.coursera.org/course/cs101)
 
+# Aprenda a debugar seu código
+
+Um ponto importantíssimo, porém muitas vezes não muito praticado, é aprender como debugar seu código, isto é, executar ele de forma que você possa ver o que está acontecendo – valores de variáveis, métodos chamados, etc. Esse recurso lhe permite um maior entendimento do que seu código está fazendo, como está sendo chamado, além também de permitir a observação e detalhamento de comportamentos não previsíveis (bugs).
+
 ## Aprenda os fundamentos de computação
 
 Após você ter uma base mínima de conhecimento sobre como funciona a lógica de programação, bem como também da linguagem escolhida, um passo importante, que muitas vezes não recebe atenção suficiente, é aprender sobre os conceitos de computação. Aprenda sobre os principais tipos de armazenamento de dados (lias, pilhas e filas), algoritmos de ordenação (quick sort, merge sort, heapsort), estruturas de dados (árvores binárias, árvores vermelhas e pretas, hash tables)  e também Big O.
