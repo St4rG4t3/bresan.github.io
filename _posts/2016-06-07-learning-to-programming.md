@@ -68,7 +68,11 @@ You can find many other resources for learning in sites like Udacity and Courser
 
 [Computer Science 101 (Stanford) on Coursera](https://www.coursera.org/course/cs101)
 
-## Learn the core of computer science
+# Learn to debug your code
+
+An important step for learning how to program is surely know what is happening inside your code, and that's the purpose of debugging your code. When debugging, you can see the values of the fields/variables, called methods, call hierarchy and everything else that happens on your program lifecycle. The act of debugging your code is a valuable tool to see what your code is doing and look previously for any existent bugs.
+
+## Learn the core concepts of computer science
 
 After you got some basic knowledge about how solve problems, as well as learning some programming language, an important step, most of times lacked, is learning about the core concepts of computer science. Learn about the many ways of store data (lists, stacks and queues), sorting algorithms (quick sort, merge sort, heap sort), data structures (binary trees, red-black trees, hash tables), and Big O.
 
