@@ -83,6 +83,8 @@ No caso de qualquer dúvida e/ou erro de minha parte, fiquem a vontade para post
 
 ## Links de referência
 
+[Apresentação de como configurar seu ambiente de desenvolvimento (IDE + SDK + Emulador)](https://docs.google.com/presentation/d/1iD0sMc-qIG80yZ1AQfDU5nxSAl3Xe4nx-2W_g9yzMSM/edit#slide=id.gd45fe3be_048)
+
 [Curso de Java da Codecademy](https://www.codecademy.com/pt-BR/learn/learn-java)
 
 [Android Studio + SDK](https://developer.android.com/studio/index.html)
