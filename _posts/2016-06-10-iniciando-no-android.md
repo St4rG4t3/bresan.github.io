@@ -73,7 +73,7 @@ Um excelente livro e guia de referência para o desenvolvimento Android é o [Th
 
 # Utilize as ferramentas disponíveis
 
-Uma ferramenta indispensável que vem junto com o Android SDK é o ADB, do inglês Android Device Bridge, que serve para realizar a conexão entre o seu dispositivo e o seu computador. Em boa parte dos casos você não verá tal ferramenta sendo utilizada explicitamente, mas a sua IDE (provavelmente Android Studio), fará uso do ADB para realizar toda e qualquer conexão - instalar o aplicativo, realizar debug, capturar logs - com seu dispositivo. É uma ferramenta muito útil pois permite que você possa controlar seu dispositivo totalmente pelo terminal, possibilitando ver todos os logs do sistema através do comando logcat, bem como as funcionalidades já descritas.
+Uma ferramenta indispensável que vem junto com o Android SDK é o ADB, do inglês Android Debug Bridge, que serve para realizar a conexão entre o seu dispositivo e o seu computador. Em boa parte dos casos você não verá tal ferramenta sendo utilizada explicitamente, mas a sua IDE (provavelmente Android Studio), fará uso do ADB para realizar toda e qualquer conexão - instalar o aplicativo, realizar debug, capturar logs - com seu dispositivo. É uma ferramenta muito útil pois permite que você possa controlar seu dispositivo totalmente pelo terminal, possibilitando ver todos os logs do sistema através do comando logcat, bem como as funcionalidades já descritas.
 
 # Nota final
 
