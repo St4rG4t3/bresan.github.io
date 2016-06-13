@@ -83,10 +83,6 @@ Você pode encontrar muito material também em sites como o Udacity e o Coursera
 
 [Ciências da Computação 101 (Stanford) no Coursera](https://www.coursera.org/course/cs101)
 
-# Aprenda a debugar seu código
-
-Um ponto importantíssimo, porém muitas vezes não muito praticado, é aprender como debugar seu código, isto é, executar ele de forma que você possa ver o que está acontecendo – valores de variáveis, métodos chamados, etc. Esse recurso lhe permite um maior entendimento do que seu código está fazendo, como está sendo chamado, além também de permitir a observação e detalhamento de comportamentos não previsíveis (bugs).
-
 ## Aprenda os fundamentos de computação
 
 Após você ter uma base mínima de conhecimento sobre como funciona a lógica de programação, bem como também da linguagem escolhida, um passo importante, que muitas vezes não recebe atenção suficiente, é aprender sobre os conceitos de computação. Aprenda sobre os principais tipos de armazenamento de dados (lias, pilhas e filas), algoritmos de ordenação (quick sort, merge sort, heapsort), estruturas de dados (árvores binárias, árvores vermelhas e pretas, hash tables)  e também Big O.
@@ -112,6 +108,14 @@ O bom de procurar projetos abertos e contribuir com eles é que eles em sua maio
 O principal ponto de aprender como programar é, certamente, o ato de programar.
 
 Escolha alguma ideia *(desde a calcular a média de uma sequência de números até a encontrar banheiros públicos na região, por exemplo)*, seja ela simples ou complexa, e simplesmente tire-a do papel. Comece com algo bem simples, e depois vá evoluindo. Deixe-a funcional e mostre para seus conhecidos (e desconhecidos, também), para que possam usa-la e então dar um feedback, para que assim você possa sempre melhorá-la. Não se esqueça de contribuir com a comunidade, podendo deixar sua ideia em alguma plataforma de código aberto, como o GitHub.
+
+# Aprenda a debugar seu código
+
+Um ponto importantíssimo, porém muitas vezes não muito praticado, é aprender como debugar seu código, isto é, executar ele de forma que você possa ver o que está acontecendo – valores de variáveis, métodos chamados, etc. Esse recurso lhe permite um maior entendimento do que seu código está fazendo, como está sendo chamado, além também de permitir a observação e detalhamento de comportamentos não previsíveis (bugs).
+
+# Aprenda a pesquisar por soluções
+
+É incrível a quantidade de materiais existentes hoje em relação à programação, principalmente no que se refere à solução de problemas. Aprenda a pesquisar nas principais comunidades de resoluções de problemas, como o StackOverflow. Servirá como um guru para quando você não tiver ideia do que está dando errado em seu código – *e isso vai acontecer diversas vezes, acredite.*
 
 ## Participe de alguma comunidade
 
